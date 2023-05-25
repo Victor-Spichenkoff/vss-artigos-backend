@@ -2,10 +2,10 @@
     "name": "backend-vss-artigo",
     "version": 2,
     "public": "true",
-    "build": {
+    "build": [{
         "src": "index.js",
         "use": "@vercel/node"
-    },
+    }],
     "routes": [
         {
             "src": "./config/routes.js",
