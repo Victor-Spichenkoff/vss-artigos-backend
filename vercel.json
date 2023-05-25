@@ -1,0 +1,15 @@
+{
+    "name": "backend-vss-artigo",
+    "version": 2,
+    "public": "true",
+    "build": {
+        "src": "index.js",
+        "use": "@vercel/node"
+    },
+    "routes": [
+        {
+            "src": "./config/routes.js",
+            "dest": "index.js"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+module.exports = {
+    authSecret: '',
+    db: {//no real, não deixar as informcações preenchidas
+        host: '127.0.0.1',
+        database: 'final',
+        user: 'postgres',
+        password: 'pituca'
+    }
+}
