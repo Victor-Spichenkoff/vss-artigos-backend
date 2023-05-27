@@ -7,14 +7,15 @@
 
 const { db } = process.env.db//require('./.env')
 
-
+const url = process.env.URL
 module.exports = {
     client: 'postgresql',
-    connection: db/*{
+    connection: {
+      host: url,
       database: 'postgres',
       user:     'postgres',
       password: 'pituca'
-    }*/,
+    },
     pool: {
       min: 2,
       max: 10
