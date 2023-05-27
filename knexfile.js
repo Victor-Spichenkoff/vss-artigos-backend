@@ -5,15 +5,16 @@
  */
 
 
-const { db } = require('./.env')
+const { db } = process.env.db//require('./.env')
+
 
 module.exports = {
     client: 'postgresql',
-    connection: /*db*/{
+    connection: db/*{
       database: 'postgres',
       user:     'postgres',
       password: 'pituca'
-    },
+    }*/,
     pool: {
       min: 2,
       max: 10
