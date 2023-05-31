@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node",
     "dev": "nodemon",
-    "production": "pm2 start index.js --name knowledge-backend",
-    "vercel-build": "npx prisma migrate deploy"
+    "production": "pm2 start index.js --name knowledge-backend"
   },
   "keywords": [],
   "author": "",
@@ -31,8 +30,5 @@
   "devDependencies": {
     "@types/bcrypt-nodejs": "^0.0.31",
     "nodemon": "1.18.4"
-  },
-  "engines": {
-    "node": "14.x"
   }
 }

@@ -9,9 +9,6 @@ const db = require('./config/db')//acesso pelo knex
 app.db = db
 app.mongoose = mongoose
 
-
-const port = process.env.PORT || 2006
-
 const consign = require('consign')
 consign()
     .include('./config/passport.js')
