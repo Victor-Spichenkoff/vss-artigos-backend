@@ -12,6 +12,5 @@
             "src": "(.*)",
             "dest": "index.js"
         }
-    ],
-    "engines": { "node": "18.x" }
+    ]
 }
