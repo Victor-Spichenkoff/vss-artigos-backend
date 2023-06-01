@@ -10,7 +10,7 @@ const url = require('./.env').DB_URL
 
 module.exports = {
     client: 'postgresql',
-    connection: 'postgres://root:mbsP4I7KqikwPDMuMmgfnZ3wdah977rC@dpg-chohk22k728ivvt35c0g-a.ohio-postgres.render.com/final_dx0m?ssl=true',
+    connection: process.env.DB_URL ||'postgres://root:mbsP4I7KqikwPDMuMmgfnZ3wdah977rC@dpg-chohk22k728ivvt35c0g-a.ohio-postgres.render.com/final_dx0m?ssl=true',
 
 
   //   connection: /*db*/{
